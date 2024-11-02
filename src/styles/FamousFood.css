@@ -1,0 +1,28 @@
+.food-card {
+  display: flex;
+  background-color: #f1f1f1; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+}
+
+.food-image {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.food-details {
+  padding: 20px;
+}
+
+.food-title {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+}
+
+.food-description {
+  font-size: 1rem; 
+  margin-top: 10px;
+  line-height: 1.5; 
+}

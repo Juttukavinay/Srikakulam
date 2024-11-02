@@ -1,0 +1,49 @@
+.grid {
+  display: flex; /* Use flexbox for the grid layout */
+  justify-content: space-between; /* Space out the cards */
+  flex-wrap: wrap; /* Allow wrapping to next line if the container is too narrow */
+  padding: 20px; /* Padding around the grid */
+}
+
+.card {
+  background-color: #f1f1f1; /* Background color of the card */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 16px; /* Padding inside the card */
+  margin: 10px; /* Space between cards */
+  flex: 1 0 calc(25% - 20px); /* Allow cards to grow equally, with a maximum width of 25% and account for margin */
+  max-width: 250px; /* Set a maximum width to each card */
+  box-sizing: border-box; /* Ensure padding and margin are included in total width */
+}
+
+.person-photo {
+  width: 100%; /* Full width for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0.5rem; /* Rounded corners for images */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.person-name {
+  font-size: 1.25rem; /* Font size for the person's name */
+  font-weight: bold; /* Bold font weight */
+  margin: 10px 0 5px; /* Margin for spacing */
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem; /* Margin for bottom spacing */
+}
+
+.know-more {
+  display: inline-block; /* Make the link display as a block */
+  margin-top: 10px; /* Margin on top */
+  padding: 8px 12px; /* Padding inside the button */
+  background-color: #38b2ac; /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 0.25rem; /* Rounded corners for the button */
+  text-decoration: none; /* Remove underline from the link */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.know-more:hover {
+  background-color: #319795; /* Darker color on hover */
+}
