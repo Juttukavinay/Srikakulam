@@ -7,7 +7,7 @@
 
 .festival-image-card,
 .festival-details-card {
-  background-color: #f1f1f1; /* Background color for cards */
+  background-color: white; /* Background color for cards */
   border-radius: 0.5rem; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
   padding: 20px; /* Padding inside cards */

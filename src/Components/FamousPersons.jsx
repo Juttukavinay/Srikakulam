@@ -14,10 +14,10 @@ const FamousPersons = () => {
   ];
 
   return (
-    <div className="grid grid-cols-4 gap-4 p-4">
+    <div className="grid"> {/* No need for additional classes here, style it through CSS */}
       {samplePersons.map((person) => (
-        <div key={person.id} className="card"> 
-          <img src={person.photo} alt={person.name} className="person-photo" /> 
+        <div key={person.id} className="card">
+          <img src={person.photo} alt={person.name} className="person-photo" />
           <h3 className="person-name">{person.name}</h3>
           <p className="mb-1">DOB: {person.dob}</p>
           <p className="mb-1">Birthplace: {person.birthplace}</p>

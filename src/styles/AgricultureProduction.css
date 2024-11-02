@@ -6,7 +6,7 @@
   }
   
   .crop-card {
-    border: 1px solid #f1f1f1;
+    border: 1px solid white;
     border-radius: 8px;
     overflow: hidden;
     width: 250px; 
